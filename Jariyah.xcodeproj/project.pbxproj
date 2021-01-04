@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6909F75A259F1D1700204DD0 /* GTMSessionFetcher in Frameworks */ = {isa = PBXBuildFile; fileRef = 6909F756259F1D1700204DD0 /* GTMSessionFetcher */; };
+		6909F75B259F1D1700204DD0 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; fileRef = 6909F757259F1D1700204DD0 /* AppAuth */; };
+		6909F75C259F1D1700204DD0 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; fileRef = 6909F758259F1D1700204DD0 /* GoogleSignIn */; };
+		6909F75D259F1D1700204DD0 /* GTMAppAuth in Frameworks */ = {isa = PBXBuildFile; fileRef = 6909F759259F1D1700204DD0 /* GTMAppAuth */; };
+		6909F790259FBE6500204DD0 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6909F78F259FBE6500204DD0 /* MainScreenViewController.swift */; };
 		6932E68C259A4359006488C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6932E68B259A4359006488C7 /* AppDelegate.swift */; };
 		6932E68E259A4359006488C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6932E68D259A4359006488C7 /* SceneDelegate.swift */; };
 		6932E690259A4359006488C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6932E68F259A4359006488C7 /* ViewController.swift */; };
 		6932E693259A4359006488C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6932E691259A4359006488C7 /* Main.storyboard */; };
 		6932E695259A4364006488C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6932E694259A4364006488C7 /* Assets.xcassets */; };
 		6932E698259A4364006488C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6932E696259A4364006488C7 /* LaunchScreen.storyboard */; };
+		6932E6A8259D65DE006488C7 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6932E6A7259D65DE006488C7 /* LocalAuthentication.framework */; };
+		6932E6AA259D65E5006488C7 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6932E6A9259D65E5006488C7 /* SafariServices.framework */; };
+		6932E6AC259D65F1006488C7 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6932E6AB259D65F1006488C7 /* AuthenticationServices.framework */; };
+		6932E6AE259D65FC006488C7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6932E6AD259D65FC006488C7 /* SystemConfiguration.framework */; };
+		E28309181DF33E50F03F4256 /* Pods_Jariyah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDE8BBA1084D48990977295 /* Pods_Jariyah.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6909F756259F1D1700204DD0 /* GTMSessionFetcher */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GTMSessionFetcher; sourceTree = "<group>"; };
+		6909F757259F1D1700204DD0 /* AppAuth */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppAuth; sourceTree = "<group>"; };
+		6909F758259F1D1700204DD0 /* GoogleSignIn */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GoogleSignIn; sourceTree = "<group>"; };
+		6909F759259F1D1700204DD0 /* GTMAppAuth */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GTMAppAuth; sourceTree = "<group>"; };
+		6909F78F259FBE6500204DD0 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		6932E688259A4359006488C7 /* Jariyah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jariyah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6932E68B259A4359006488C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6932E68D259A4359006488C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,14 @@
 		6932E694259A4364006488C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6932E697259A4364006488C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6932E699259A4364006488C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6932E6A4259D657A006488C7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		6932E6A7259D65DE006488C7 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		6932E6A9259D65E5006488C7 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		6932E6AB259D65F1006488C7 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		6932E6AD259D65FC006488C7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9CDE8BBA1084D48990977295 /* Pods_Jariyah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jariyah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19D8BADE31D28C5BD100028 /* Pods-Jariyah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jariyah.debug.xcconfig"; path = "Target Support Files/Pods-Jariyah/Pods-Jariyah.debug.xcconfig"; sourceTree = "<group>"; };
+		ED953865DC1B589EC05789AF /* Pods-Jariyah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jariyah.release.xcconfig"; path = "Target Support Files/Pods-Jariyah/Pods-Jariyah.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6909F75A259F1D1700204DD0 /* GTMSessionFetcher in Frameworks */,
+				6909F75B259F1D1700204DD0 /* AppAuth in Frameworks */,
+				6909F75C259F1D1700204DD0 /* GoogleSignIn in Frameworks */,
+				6909F75D259F1D1700204DD0 /* GTMAppAuth in Frameworks */,
+				6932E6AC259D65F1006488C7 /* AuthenticationServices.framework in Frameworks */,
+				6932E6AE259D65FC006488C7 /* SystemConfiguration.framework in Frameworks */,
+				6932E6A8259D65DE006488C7 /* LocalAuthentication.framework in Frameworks */,
+				6932E6AA259D65E5006488C7 /* SafariServices.framework in Frameworks */,
+				E28309181DF33E50F03F4256 /* Pods_Jariyah.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CD599271BF91E70BE01E13B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6909F757259F1D1700204DD0 /* AppAuth */,
+				6909F758259F1D1700204DD0 /* GoogleSignIn */,
+				6909F759259F1D1700204DD0 /* GTMAppAuth */,
+				6909F756259F1D1700204DD0 /* GTMSessionFetcher */,
+				6932E6AD259D65FC006488C7 /* SystemConfiguration.framework */,
+				6932E6AB259D65F1006488C7 /* AuthenticationServices.framework */,
+				6932E6A9259D65E5006488C7 /* SafariServices.framework */,
+				6932E6A7259D65DE006488C7 /* LocalAuthentication.framework */,
+				6932E6A4259D657A006488C7 /* CoreAudio.framework */,
+				9CDE8BBA1084D48990977295 /* Pods_Jariyah.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6932E67F259A4358006488C7 = {
 			isa = PBXGroup;
 			children = (
 				6932E68A259A4359006488C7 /* Jariyah */,
 				6932E689259A4359006488C7 /* Products */,
+				0CD599271BF91E70BE01E13B /* Frameworks */,
+				CC67F32133BB2C397FBD300D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +114,18 @@
 				6932E694259A4364006488C7 /* Assets.xcassets */,
 				6932E696259A4364006488C7 /* LaunchScreen.storyboard */,
 				6932E699259A4364006488C7 /* Info.plist */,
+				6909F78F259FBE6500204DD0 /* MainScreenViewController.swift */,
 			);
 			path = Jariyah;
+			sourceTree = "<group>";
+		};
+		CC67F32133BB2C397FBD300D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E19D8BADE31D28C5BD100028 /* Pods-Jariyah.debug.xcconfig */,
+				ED953865DC1B589EC05789AF /* Pods-Jariyah.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6932E69C259A4364006488C7 /* Build configuration list for PBXNativeTarget "Jariyah" */;
 			buildPhases = (
+				5F1F38580654072B401B581C /* [CP] Check Pods Manifest.lock */,
 				6932E684259A4359006488C7 /* Sources */,
 				6932E685259A4359006488C7 /* Frameworks */,
 				6932E686259A4359006488C7 /* Resources */,
+				4078A324D0067B74CBC03225 /* [CP] Embed Pods Frameworks */,
+				0D3476CA7C7EE125702055A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +196,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D3476CA7C7EE125702055A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jariyah/Pods-Jariyah-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jariyah/Pods-Jariyah-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jariyah/Pods-Jariyah-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4078A324D0067B74CBC03225 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jariyah/Pods-Jariyah-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jariyah/Pods-Jariyah-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jariyah/Pods-Jariyah-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F1F38580654072B401B581C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jariyah-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6932E684259A4359006488C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6932E690259A4359006488C7 /* ViewController.swift in Sources */,
+				6909F790259FBE6500204DD0 /* MainScreenViewController.swift in Sources */,
 				6932E68C259A4359006488C7 /* AppDelegate.swift in Sources */,
 				6932E68E259A4359006488C7 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,14 +407,47 @@
 		};
 		6932E69D259A4364006488C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19D8BADE31D28C5BD100028 /* Pods-Jariyah.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = Jariyah/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMAppAuth\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"AuthenticationServices\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamajama.Jariyah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,14 +458,47 @@
 		};
 		6932E69E259A4364006488C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED953865DC1B589EC05789AF /* Pods-Jariyah.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = Jariyah/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMAppAuth\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"AuthenticationServices\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamajama.Jariyah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
