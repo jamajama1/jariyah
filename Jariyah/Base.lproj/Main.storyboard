@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="u6V-Au-12m">
-                                <rect key="frame" x="125" y="178" width="164" height="80.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="u6V-Au-12m">
+                                <rect key="frame" x="125" y="163" width="164" height="80.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="moo-b9-jbp">
                                         <rect key="frame" x="0.0" y="0.0" width="164" height="80.5"/>
@@ -42,6 +42,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YMo-I1-Ruj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YMo-I1-Ruj" firstAttribute="bottom" secondItem="u6V-Au-12m" secondAttribute="bottom" constant="618.5" id="Lvi-X1-2c7"/>
+                            <constraint firstItem="u6V-Au-12m" firstAttribute="leading" secondItem="YMo-I1-Ruj" secondAttribute="leading" constant="125" id="Qxd-LT-ozi"/>
+                            <constraint firstItem="YMo-I1-Ruj" firstAttribute="trailing" secondItem="u6V-Au-12m" secondAttribute="trailing" constant="125" id="TVX-Mo-G9O"/>
+                            <constraint firstItem="u6V-Au-12m" firstAttribute="top" secondItem="YMo-I1-Ruj" secondAttribute="top" constant="119" id="WFo-es-pkm"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bie-Sf-alJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
